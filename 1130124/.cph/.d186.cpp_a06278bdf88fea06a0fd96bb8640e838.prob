@@ -1,0 +1,1 @@
+{"name":"Local: d186","url":"c:\\Users\\YuDong\\Documents\\CPP_code\\1130124\\d186.cpp","tests":[{"id":1706073406172,"input":"1 4\n1 10\n0 0","output":"2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\YuDong\\Documents\\CPP_code\\1130124\\d186.cpp","group":"local","local":true}
