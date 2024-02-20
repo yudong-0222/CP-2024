@@ -23,43 +23,28 @@ signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int n; cin >> n;
-    set<int> st;
+    int n,g,a; cin >> n;
+    priority_queue<int> pq;
 
     for(int i = 0; i < n; ++i) {
-        int x,a; cin >> x;
-        switch(x) {
+        cin >> g;
+        switch (g) {
             case 1:
                 cin >> a;
-                st.insert(a);
+                pq.emplace(a);
                 break;
             case 2:
-                cin >> a;
-                st.erase(a);
+                if(pq.empty()) cout << "WA\n";
+                else cout << pq.top() << endl;
                 break;
             case 3:
-                if(st.empty()) cout << "WA\n";
-                cout << *st.begin() << endl;
+                if(!pq.empty()) pq.pop();
                 break;
             case 4:
-                if(st.empty()) cout << "WA\n";
-                cout << *st.rbegin() << endl;
-                break;
-            case 5:
-                cin >> a;
-                if(st.empty() || a <= *st.begin()) cout << "WA\n";
-                else cout << *(--st.lower_bound(a)) << endl;
-                break;
-            case 6:
-                cin >> a;
-                if(st.empty() || a >= *st.rbegin()) cout << "WA\n";
-                else cout << *st.upper_bound(a) << endl;
-                break;
-            case 7:
-                cout << st.size() << endl;
+                cout << pq.size() << endl;
                 break;
             default:
                 break;
         }
-    }
+    }   
 }
