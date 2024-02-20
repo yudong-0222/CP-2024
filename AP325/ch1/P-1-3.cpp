@@ -22,16 +22,24 @@ using namespace std;
 int p[50010];
 
 int chicken(int left, int right) {
-    int m = (p[right] - p[left]) / 2;
-    return p[right] - p [left] + chicken(left, m) +chicken(m, right);
+    if(right - left <= 1) return 0;
+    int m = left;
+    int k = (p[right] + p[left]) / 2; //middle one.
+
+    for(int i = (right - left)/2; i > 0; i>>=1) {
+        while(m + i < right && p[m+i] < k) m+=i;
+    }
+
+    if(p[m] - p[left] < p[right] - p[m+1]) m++;
+
+    return p[right] - p [left] + chicken(left, m) + chicken(m, right);
 }
 
 signed main(void) {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
     int n,l; cin >> n >> l;
     p[0] = 0; p[n+1] = l;
-    for(int i = 0; i < n; ++i) cin >> p[i];
-    cout << chicken(0, n + 1);
+    for(int i = 1; i <= n; ++i) cin >> p[i];
+    cout << chicken(0, n + 1) << endl;
 }
