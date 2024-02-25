@@ -1,0 +1,1 @@
+{"name":"Local: Q-1-4","url":"d:\\eznick\\CP-2024\\CP-2024\\AP325\\ch1\\Q-1-4.cpp","tests":[{"id":1708353018523,"input":"7 1\n2 4 1 3 7 6 9","output":"7"},{"id":1708353025964,"input":"7 3\n2 4 1 3 7 6 9","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\eznick\\CP-2024\\CP-2024\\AP325\\ch1\\Q-1-4.cpp","group":"local","local":true}

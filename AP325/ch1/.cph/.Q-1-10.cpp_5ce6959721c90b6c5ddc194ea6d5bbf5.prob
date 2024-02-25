@@ -1,0 +1,1 @@
+{"name":"Local: Q-1-10","url":"c:\\Users\\YuDong\\Documents\\CPP_code\\AP325\\ch1\\Q-1-10.cpp","tests":[{"id":1708486193454,"input":"3\n1 4 2\n5 3 2\n7 8 5","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\YuDong\\Documents\\CPP_code\\AP325\\ch1\\Q-1-10.cpp","group":"local","local":true}

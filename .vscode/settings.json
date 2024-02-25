@@ -1,6 +1,9 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "iostream": "cpp",
+=======
+>>>>>>> 905ef84f5aee7c1a08eccfc4171c21d251132172
         "array": "cpp",
         "deque": "cpp",
         "forward_list": "cpp",
@@ -10,11 +13,15 @@
         "unordered_set": "cpp",
         "vector": "cpp",
         "string_view": "cpp",
+<<<<<<< HEAD
         "rope": "cpp",
         "slist": "cpp",
         "initializer_list": "cpp",
         "ranges": "cpp",
         "span": "cpp",
+=======
+        "initializer_list": "cpp",
+>>>>>>> 905ef84f5aee7c1a08eccfc4171c21d251132172
         "regex": "cpp",
         "valarray": "cpp"
     }
