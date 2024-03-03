@@ -1,0 +1,1 @@
+{"name":"Local: P-2-2","url":"c:\\Users\\YuDong\\Documents\\CPP_code\\AP325\\ch2\\P-2-2.cpp","tests":[{"id":1709482085873,"input":"7\n0 3 9 3 3 -1 0","output":"1 2 3 2 2 0 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\YuDong\\Documents\\CPP_code\\AP325\\ch2\\P-2-2.cpp","group":"local","local":true}
