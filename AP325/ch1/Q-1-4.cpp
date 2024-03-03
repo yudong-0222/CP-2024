@@ -26,10 +26,14 @@ int cut(int l, int r, int stop) {
 
     if(m < 3 || stop == 0) return 0; //stop conditions
 
-    ppf[l] = pref[l] = v[l]; ssf[r] = suff[r] = v[r];
+    ppf[l] = pref[l] = v[l]; 
+    ssf[r] = suff[r] = v[r];
 
+    //計算距離乘積總和：
+    //做兩次前墜河  
     for(int i = l+1; i <= r; ++i) pref[i] = pref[i-1] + v[i];
     for(int i = l+1; i <= r; ++i) ppf[i] = ppf[i-1] + pref[i];
+    //做兩次前墜河
     for(int i = r-1; i >= l; --i) suff[i] = suff[i+1] + v[i];
     for(int i = r-1; i >= l; --i) ssf[i] = ssf[i+1] + suff[i];
 
