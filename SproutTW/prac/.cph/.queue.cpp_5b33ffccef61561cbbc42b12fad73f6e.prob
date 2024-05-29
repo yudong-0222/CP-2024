@@ -1,0 +1,1 @@
+{"name":"Local: queue","url":"c:\\Users\\YuDong\\Documents\\CPP_code\\SproutTW\\prac\\queue.cpp","tests":[{"id":1710509536665,"input":"5\n1 2\n1 3\n2\n2\n2\n","output":"2\n3\nempty!"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\YuDong\\Documents\\CPP_code\\SproutTW\\prac\\queue.cpp","group":"local","local":true}

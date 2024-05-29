@@ -1,0 +1,1 @@
+{"name":"Local: k863","url":"c:\\Users\\YuDong\\Documents\\CPP_code\\1130425\\k863.cpp","tests":[{"id":1714026786090,"input":"GuangXu 20\n","output":"1894"},{"id":1714026795639,"input":"YongZheng 1\n","output":"1723"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\YuDong\\Documents\\CPP_code\\1130425\\k863.cpp","group":"local","local":true}

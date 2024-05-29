@@ -7,7 +7,6 @@ Practice by myself.
 #define endl "\n"
 using namespace std;
 
-
 int P = 10009, ans = 0, n;
 int v[26];
 
